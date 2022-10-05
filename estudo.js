@@ -3,6 +3,8 @@
 // console.log("Eu estou no console.");
 let tabuada = 5;
 function alo(){
+    let tabuada = document.getElementById("entrada").value;
+
     document.write("<h1>Tabuada do " + tabuada + "</h1>");
     document.write(tabuada + " x 1 = " + (tabuada*1)+"<br>");
     document.write(tabuada + " x 2 = " + (tabuada*2)+"<br>");
@@ -13,17 +15,26 @@ function alo(){
     document.write(tabuada + " x 7 = " + (tabuada*7)+"<br>");
     document.write(tabuada + " x 8 = " + (tabuada*8)+"<br>");
     document.write(tabuada + " x 9 = " + (tabuada*9)+"<br>");
-    document.write(tabuada + " x 10 = " + (tabuada*10));
+    document.write(tabuada + " x 10 = " + (tabuada*10)+"<br>");
 }
-// for(inicio, validação, manutenção)
 function escreva(){
-    for(var j = j <=10; j++){
-        documento.write(i + " x " + j + "=" + (j*i)+"<br>")
+    for(var i=1; i < 10; i ++){
+        for(var i=1; i <= 10; j++){
+            document.write(tabuada + " x " + 1 + " = " +(j*i)+"<br>")
+        }
+        document.write("<br>")
     }
-    document.write("<br>")
 }
-function quadrada(){
-    for(var i = 2; i < 11; i++){
-        document.write("O quadrado de " + i + " é " + (i*i)+"<br>");
+
+function quadrado(){
+    for(var i = 2; i < 11; i ++){
+        document.write("O quadrado de" + i + " é " + (i*i)+"<br>");
     }
+}
+
+function total(){
+    let val = document.getElementById("valor").value;
+    let ju = document.getElementById("juros").value;
+    let resultado = (val * (ju/100)) + val;
+    document.write("O total é de: " + resultado);
 }
