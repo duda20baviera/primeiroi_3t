@@ -61,27 +61,27 @@ função  soma ( ) {
     seja  n1  =  documento . getElementById ( "b1" ) . valor ;
     seja  n2  =  documento . getElementById ( "b2" ) . valor ;
     seja  n3  =  documento . getElementById ( "b3" ) . valor ;
-    deixe  n4  =  documento . getElementById ( "b4" ) . valor ;
+    deixe n4  =  documento . getElementById ( "b4" ) . valor ;
     let  r  =  Número ( n1 )  +  Número ( n2 )  +  Número ( n3 )  +  Número ( n4 ) ;
     documento . getElementById ( "resultado" ) . innerHTML  =  r ;
     
 }
 
-função  mídia ( ) {
+função  média ( ) {
     seja  n1  =  documento . getElementById ( "b1" ) . valor ;
     seja  n2  =  documento . getElementById ( "b2" ) . valor ;
     seja  n3  =  documento . getElementById ( "b3" ) . valor ;
-    deixe  n4  =  documento . getElementById ( "b4" ) . valor ;
+    deixe n4  =  documento . getElementById ( "b4" ) . valor ;
     let  r  =  ( Número ( n1 )  +  Número ( n2 )  +  Número ( n3 )  +  Número ( n4 ) ) / 4 ;
     documento . getElementById ( "resultado" ) . innerHTML  =  r ;
     
 }
 
-função  falta ( ) {
+função  necessário ( ) {
     seja  n1  =  documento . getElementById ( "b1" ) . valor ;
     seja  n2  =  documento . getElementById ( "b2" ) . valor ;
     seja  n3  =  documento . getElementById ( "b3" ) . valor ;
-    deixe  n4  =  documento . getElementById ( "b4" ) . valor ;
+    deixe n4  =  documento . getElementById ( "b4" ) . valor ;
     let  r  =  240  -  ( Número ( n1 )  +  Número ( n2 )  +  Número ( n3 ) +  Número ( n4 ) ) ;
     documento . getElementById ( "resultado" ) . innerHTML  =  r ;
     
