@@ -30,17 +30,17 @@ function quadrado(){
     for(var i = 2; i < 11; i ++){
         document.write("O quadrado de" + i + " é " + (i*i)+"<br>");
     }
-}
 
+}
 function total(){
     let val = document.getElementById("valor").value;
     let ju = document.getElementById("juros").value;
     let mes = document.getElementById("mes").value;
 
-    if(!Number(val)){
+    if(!Number (val)){
         alert("O valor deve ser um número");
-        document.getElementById("valor").value = "";
-        document.getElementById("juros").focus = ();
+        document.getElementById("valor"). value = "";
+        document.getElementById("valor"). focus = ();
         return
     } 
 
