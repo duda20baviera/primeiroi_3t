@@ -47,8 +47,8 @@ function total(){
 
    let resultado = 0;
    for(let i = 1; i <= mes; i++){
-   resultado = valor * (1+(iuros/100)):
-   valor = resultado;
+       resultado = valor * (1+(iuros/100)):
+       valor = resultado;
    }
 
   document.write ("O Resultado é " + resultado);
