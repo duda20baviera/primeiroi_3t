@@ -35,17 +35,24 @@ function quadrado(){
 function total(){
     let val = document.getElementById("valor").value;
     let ju = document.getElementById("juros").value;
+    let mes = document.getElementById("mes").value;
 
-    if(Number(val)){
+    if(!Number(val)){
         alert("O valor deve ser um número");
         document.getElementById("valor").value = "";
-        document.getElementById("valor").focus = "";
+        document.getElementById("juros").focus = ();
         return
     } 
 
 
-    let resultado = (val * (ju/100)) + val;
-    document.write("O total é de: " + resultado);
+   let resultado = 0;
+   for(let i = 1; i <= mes; i++){
+   resultado = valor * (1+(iuros/100)):
+   valor = resultado;
+   }
+
+  document.write ("O Resultado é " + resultado);
+
 }
 
 function soma(){
