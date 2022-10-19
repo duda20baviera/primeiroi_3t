@@ -51,7 +51,7 @@ function total(){
        valor = resultado;
    }
 
-  document.write ("O Resultado é " + resultado);
+   document.write ("O Resultado é " + resultado);
 
 }
 
