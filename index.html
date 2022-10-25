@@ -6,16 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Terceiro Trimestre</title>
     <script src="estudo.js"></script>
+    <link rel="stylesheet" href="geral.css">
+
+
 
 </head>
 <body>
+    <div class="calculadora">
+    <span id="resultado">Total:0,0</span><br>
 
- Valor: <input id="valor" type="text"> <br>
- Taxa de Juros: <input id="juros" type="text"> <br>
- Quantidade de meses: <input id="meses" type="text"> <br>
-
- <button onclick="total()">Calcular</button>
-
+    Valor: <input id="valor" type="text"> <br>
+    Taxa de Juros: <input id="juros" type="text"> <br>
+    Quantidade de meses: <input id="meses" type="text"> <br>
+    <button id="btnCalc" onclick="total()">Calcular</button>
+    </div>
+    <span id="mes">Mês a Mês</span>
 
 </body>
 </html>
