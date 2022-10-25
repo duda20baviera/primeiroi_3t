@@ -1,1 +1,17 @@
+.calculadora{
+     background-color: blueviolet;
+     width: 200px;
+     margin: 10px;
 
+ }
+ #bntCalc {
+     background-color: cadetblue;
+     color: cornsilk;
+     padding: 5px;
+ }
+
+#bntCalc:hover {
+    background-color: cadetblue;
+    color: cornsilk;
+    cursor: pointer;
+}
