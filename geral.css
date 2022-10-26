@@ -5,13 +5,19 @@
 
  }
  #bntCalc {
-     background-color: cadetblue;
+     background-color: rgb(109, 52, 99);
      color: cornsilk;
      padding: 5px;
  }
 
 #bntCalc:hover {
-    background-color: cadetblue;
+    background-color: rgb(109, 52, 99);
     color: cornsilk;
     cursor: pointer;
+}
+.spResultado{
+    background: rgba(197, 114, 179, 0.664);
+    color: black;
+    padding: 4px;
+    margin: 2px;
 }
